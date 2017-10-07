@@ -1,4 +1,4 @@
 var playlist = {
-  artists: 'Jay Z', 'Kanye West', 'DMX',
-  songs: 'Big Pimpin', 'Jesus Walks', 'Ruff Riders'
+  'Jay Z': 'Big Pimpin\'',
+  'Kanye West': 'Jesus Walks' 
 };
