@@ -2,9 +2,9 @@ var playlist = {
   'Jay Z': 'Big Pimpin\'',
   'Kanye West': 'Jesus Walks'
 };
-function updatePlaylist(playlist,artist,title) {
-  return Object.assign({}, playlist, { artist: ['Jay Z', 'It\'s a hard knock life'] })
+function updatePlaylist(playlist,artistName,songTitle) {
+  return Object.assign({}, playlist, { artistName: ['Jay Z', 'It\'s a hard knock life'] })
 };
-function removeFromPlaylist(Obj,artist) {
+function removeFromPlaylist(Obj,artistName) {
 
 }
