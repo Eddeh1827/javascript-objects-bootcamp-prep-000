@@ -1,10 +1,16 @@
 var playlist = {
-  artistName: 'Kanye',
-  songTitle: 'Helper',
-};
+  Kanye: 'Jesus Walks',
+  JayZ: 'Helper'
+}
 function updatePlaylist(playlist,artistName,songTitle) {
-  return Object.assign({}, { ['Phil Ochs', "Here's to the State of Mississippi"] })
-};
+  playlist[artistName] = songTitle;
+  return playlist;
+}
 function removeFromPlaylist(playlist,artistName) {
-  delete playlist.artistName
-};
+  delete playlist.artistName;
+  return playlist;
+}
+function removeFromPlaylist(playlist, artistName){
+        delete playlist[artistName];
+        return playlist;
+}
