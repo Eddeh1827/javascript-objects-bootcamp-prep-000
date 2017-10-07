@@ -1,6 +1,6 @@
 var playlist = {
-  'Jay Z': 'Big Pimpin\'',
-  'Kanye West': 'Jesus Walks'
+  artistName: 'Kanye',
+  songTitle: 'Jesus Walks'
 };
 function updatePlaylist(playlist,artistName,songTitle) {
   return Object.assign({}, { ['Phil Ochs', "Here's to the State of Mississippi"] })
